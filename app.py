@@ -9,7 +9,7 @@ import streamlit as st
 import base64 
 import time
 
-from dotenv import load_dotenv
+from python-dotenv import load_dotenv
 
 load_dotenv()
 
