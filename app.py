@@ -48,4 +48,5 @@ if st.button('Grade the answer sheet'):
     # Remove spinner once calculation is done
     st.success('Grading done as per the marking scheme provided!')
     score = calculate_scores()
-    st.write(f'Score: {score}'+ api_key)
+    st.write(api_key)
+    #st.write(f'Score: {score}'+ api_key)
