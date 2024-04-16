@@ -56,6 +56,5 @@ if st.button('Grade the answer sheet'):
     st.success('Grading done as per the marking scheme provided!')
     score = calculate_scores()
     
-    #final_score = "Final Score: 5/5Grading Rationale:Q.(i): The answer provided correctly identifies the process by which coral reefs are formed, with free-swimming coral larvae attaching to submerged rocks or other hard surfaces. This response is accurate and aligns with the information typically found in passages regarding coral reef formation. - Score: 1/1Q.(ii): The student correctly states that barrier reefs are separated from their adjacent land mass by a lagoon of open, often deep water. This is a precise definition and demonstrates a clear understanding of the geographical features of barrier reefs. - Score: 1/1Q.(iii): The answer (d) Fr
     st.write(score)
     #st.write(f'Score: {score}'+ api_key)
