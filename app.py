@@ -20,7 +20,7 @@ api_secret = os.getenv("API_SECRET")
 
 
 def calculate_scores():
-    text = 'final_score = ("Final Score: 5/5\n"
+    text = '"Final Score: 5/5\n"
                "Grading Rationale:\n"
                "Q.(i): The answer provided correctly identifies the process by which coral reefs are formed, with free-swimming coral larvae attaching to submerged rocks or other hard surfaces. This response is accurate and aligns with the information typically found in passages regarding coral reef formation. - Score: 1/1\n"
                "Q.(ii): The student correctly states that barrier reefs are separated from their adjacent land mass by a lagoon of open, often deep water. This is a precise definition and demonstrates a clear understanding of the geographical features of barrier reefs. - Score: 1/1\n"
