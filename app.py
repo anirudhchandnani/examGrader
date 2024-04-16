@@ -20,14 +20,14 @@ api_secret = os.getenv("API_SECRET")
 
 
 def calculate_scores():
-    text = 'Final Score: 5/5
-               Grading Rationale:
-               Q.(i): The answer provided correctly identifies the process by which coral reefs are formed, with free-swimming coral larvae attaching to submerged rocks or other hard surfaces. This response is accurate and aligns with the information typically found in passages regarding coral reef formation. - Score: 1/1
-               Q.(ii): The student correctly states that barrier reefs are separated from their adjacent land mass by a lagoon of open, often deep water. This is a precise definition and demonstrates a clear understanding of the geographical features of barrier reefs. - Score: 1/1
-               Q.(iii): The answer (d) Fringing, barrier, and atoll, correctly lists the different types of reefs. This is a direct response to the question and displays the student's knowledge of the classification of reefs. - Score: 1/1
-               Q.(iv): The answer (a) nutrient levels is correct. When pollutants enter the water, they can cause an increase in nutrient levels, which in turn promotes the growth of algae. This understanding is essential in recognizing the factors contributing to algal bloom in aquatic environments. - Score: 1/1
-Q.(v): The student lists more than two anthropogenic activities that are a threat to coral reefs, including pollution, overfishing, and other relevant threats. This not only meets the requirement of the question but also shows a comprehensive understanding of the various human activities impacting coral reefs. - Score: 1/1
-               Overall, the student demonstrated a thorough understanding of the subject matter and provided correct and complete answers for all the questions. Therefore, they have earned a perfect score.'
+    text = r"Final Score: 5/5 \
+               Grading Rationale: \
+               Q.(i): The answer provided correctly identifies the process by which coral reefs are formed, with free-swimming coral larvae attaching to submerged rocks or other hard surfaces. This response is accurate and aligns with the information typically found in passages regarding coral reef formation. - Score: 1/1 \
+               Q.(ii): The student correctly states that barrier reefs are separated from their adjacent land mass by a lagoon of open, often deep water. This is a precise definition and demonstrates a clear understanding of the geographical features of barrier reefs. - Score: 1/1 \
+               Q.(iii): The answer (d) Fringing, barrier, and atoll, correctly lists the different types of reefs. This is a direct response to the question and displays the student's knowledge of the classification of reefs. - Score: 1/1 \
+               Q.(iv): The answer (a) nutrient levels is correct. When pollutants enter the water, they can cause an increase in nutrient levels, which in turn promotes the growth of algae. This understanding is essential in recognizing the factors contributing to algal bloom in aquatic environments. - Score: 1/1 \
+               Q.(v): The student lists more than two anthropogenic activities that are a threat to coral reefs, including pollution, overfishing, and other relevant threats. This not only meets the requirement of the question but also shows a comprehensive understanding of the various human activities impacting coral reefs. - Score: 1/1 \
+               Overall, the student demonstrated a thorough understanding of the subject matter and provided correct and complete answers for all the questions. Therefore, they have earned a perfect score."
     return text
 
 st.title('Upload answer sheet and marking scheme')
